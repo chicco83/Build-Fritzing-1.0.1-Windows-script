@@ -18,7 +18,7 @@ if not exist UnZip.exe DownloadFile https://github.com/FREEWING-JP/CSharp_UnZip/
 
 rem https://github.com/FREEWING-JP/Build-Fritzing-1.0.0-Windows-script
 echo Build Fritzing 1.0.0 Windows script
-if not exist main.zip DownloadFile https://github.com/FREEWING-JP/Build-Fritzing-1.0.0-Windows-script/archive/refs/heads/main.zip main.zip
+if not exist main.zip DownloadFile https://github.com/chicco83/Build-Fritzing-1.0.1-Windows-script/archive/refs/heads/main.zip main.zip
 
 UnZip.exe main.zip .
 
