@@ -29,18 +29,19 @@ if not exist qt-unified-windows-x64-4.6.1-online.exe DownloadFile https://d13lb3
 rem https://www.boost.org/users/history/version_1_81_0.html
 echo Boost Version 1.81.0
 rem December 14th, 2022 17:44 GMT
-if not exist boost_1_81_0.zip DownloadFile https://boostorg.jfrog.io/artifactory/main/release/1.81.0/source/boost_1_81_0.zip boost_1_81_0.zip
+if not exist boost_1_81_0.zip DownloadFile https://sourceforge.net/projects/boost/files/boost/1.81.0/boost_1_81_0.zip 
+boost_1_81_0.zip
 
 rem https://www.zlib.net/
 rem zlib Home Site
 echo zlib 1.3
 if not exist zlib13.zip DownloadFile https://www.zlib.net/zlib13.zip zlib13.zip
 
-rem https://sourceforge.net/projects/ngspice/files/ng-spice-rework/40/
-echo ngspice-40 ngspice Files
-if not exist ngspice-40.tar.gz DownloadFile https://jaist.dl.sourceforge.net/project/ngspice/ng-spice-rework/40/ngspice-40.tar.gz ngspice-40.tar.gz
+rem https://sourceforge.net/projects/ngspice/files/ng-spice-rework/42/
+echo ngspice-42 ngspice Files
+if not exist ngspice-42.tar.gz DownloadFile https://jaist.dl.sourceforge.net/project/ngspice/ng-spice-rework/42/ngspice-42.tar.gz ngspice-42.tar.gz
 
-if not exist ngspice-40_dll_64.7z DownloadFile https://master.dl.sourceforge.net/project/ngspice/ng-spice-rework/40/ngspice-40_dll_64.7z ngspice-40_dll_64.7z
+if not exist ngspice-42_dll_64.7z DownloadFile https://master.dl.sourceforge.net/project/ngspice/ng-spice-rework/42/ngspice-42_dll_64.7z ngspice-42_dll_64.7z
 
 exit
 

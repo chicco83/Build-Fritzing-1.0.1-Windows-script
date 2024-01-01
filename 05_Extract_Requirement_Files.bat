@@ -7,7 +7,8 @@ cd /d \00_fritzing
 
 UnZip.exe boost_1_81_0.zip .
 UnZip.exe zlib13.zip .
-tar -xf ngspice-40.tar.gz
+tar -xf ngspice-42.tar.gz
+ren ngspice-42 ngspice-40
 
 if not exist 7zr.exe goto 7z_inst
 
